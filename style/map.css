@@ -1,0 +1,20 @@
+#map{
+  display:grid;
+  width:100%;
+  height:100%;
+	justify-content:center;
+}
+#map .cell{
+  display:grid;
+  justify-content:center;
+  align-content:center;;
+}
+body,html{
+  margin:0;
+  padding:0;
+}
+.cell.sea{background-color:darkblue;}
+.cell.marsh{background-color:palegreen;}
+.cell.plain{background-color:darkgreen;}
+.cell.hill{background-color:grey;}
+.cell.peak{background-color:ivory;}

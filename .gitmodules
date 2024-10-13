@@ -1,0 +1,6 @@
+[submodule "libraries/tie"]
+	path = libraries/tie
+	url = https://github.com/tukkek/tie
+[submodule "libraries/rpg"]
+	path = libraries/rpg
+	url = https://github.com/tukkek/tuktk-rpg/
