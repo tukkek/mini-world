@@ -7,7 +7,8 @@
 #map .cell{
   display:grid;
   justify-content:center;
-  align-content:center;;
+  align-content:center;
+  font-weight:bold;
 }
 body,html{
   margin:0;
@@ -18,3 +19,27 @@ body,html{
 .cell.plain{background-color:darkgreen;}
 .cell.hill{background-color:grey;}
 .cell.peak{background-color:ivory;}
+.cell.expand{
+  cursor:pointer;
+}
+.details{
+  position:fixed;
+  border-radius:2em;
+  background-color:white;
+  padding:1em;
+  display:grid;
+  gap:1em;
+}
+.details .footer{
+  font-size:small;
+}
+.details .name{
+  font-weight:bold;
+  text-align:center;
+}
+.cell.dark{background-color:black;}
+.cell.room{background-color:lightblue;}
+.cell.residence{background-color:green;color:darkgrey;}
+.cell.commerce{background-color:darkblue;color:darkgrey;}
+.cell.industry{background-color:gold;color:darkgrey;}
+.cell.river{background-color:aqua;}
