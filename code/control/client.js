@@ -10,4 +10,5 @@ export async function setup(){
   await names.setup()
   world=new worldm.World()
   show(world)
+  window.addEventListener('keyup',(event)=>{if(event.key=='Escape') show(world)})
 }
